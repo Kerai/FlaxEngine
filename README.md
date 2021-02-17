@@ -3,7 +3,7 @@
 <a href="https://marketplace.visualstudio.com/items?itemName=Flax.FlaxVS"><img src="https://img.shields.io/badge/vs-extension-green.svg"/></a>
 <a href="https://flaxengine.com/discord"><img src="https://discordapp.com/api/guilds/437989205315158016/widget.png"/></a>
 
-Flax Engine is a high quality modern 3D game engine written in C++ and C#.
+Flax Engine is a high quality modern 3D game engine written in C++.
 From stunning graphics to powerful scripts - Flax can give everything for your games. Designed for fast workflow with many ready to use features waiting for you right now. To learn more see the website ([www.flaxengine.com](https://flaxengine.com)).
 
 This repository contains full source code of the Flax (excluding NDA-protected platforms support). Anyone is welcome to contribute or use the modified source in Flax-based games.
@@ -28,7 +28,7 @@ Follow the instructions below to compile and run the engine from source.
 
 ## Flax plugin for Visual Studio
 
-Flax Visual Studio extension provides better programming workflow, C# scripts debugging functionality and allows to attach to running engine instance to debug C# source. This extension is available to download [here](https://marketplace.visualstudio.com/items?itemName=Flax.FlaxVS).
+Flax Visual Studio extension provides better programming workflow, debugging functionality and allows to attach to running engine instance to debug source. This extension is available to download [here](https://marketplace.visualstudio.com/items?itemName=Flax.FlaxVS).
 
 ## Windows
 
@@ -72,7 +72,6 @@ Flax Visual Studio extension provides better programming workflow, C# scripts de
   - **Editor/** - Flax Editor source code
   - **Engine/** - Flax Engine source code
   - **Platforms/** - per-platform sources and dependency files
-    - **DotNet/** - C# dependencies
     - **Editor/** - Flax Editor binaries
     - ***PlatformName*/** - per-platform files
       - **Binaries/** - per-platform binaries
